@@ -15,7 +15,6 @@ metadata:
             'f:spec':
               'f:containers': {}
               'f:initContainers': {}
-        ...
       manager: rollouts-controller
       operation: Update
       time: '2022-01-13T05:10:02Z'
