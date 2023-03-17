@@ -9,4 +9,4 @@ spec:
     apiVersion: argoproj.io/v1alpha1
     kind: Rollout
     name: rollout-bluegreen
-  targetCPUUtilizationPercentage: 50
+  targetCPUUtilizationPercentage: 10
