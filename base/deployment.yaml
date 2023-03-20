@@ -2,22 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout  
 metadata:
   name: rollout-bluegreen
-  managedFields:
-    - apiVersion: argoproj.io/v1alpha1
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:metadata':
-          'f:annotations':
-            'f:rollout.argoproj.io/revision': {}
-        'f:spec':
-          'f:replicas': {}
-          'f:template':
-            'f:spec':
-              'f:containers': {}
-              'f:initContainers': {}
-      manager: rollouts-controller
-      operation: Update
-      time: '2022-01-13T05:10:02Z'
 spec:
   replicas: 1
   revisionHistoryLimit: 2
