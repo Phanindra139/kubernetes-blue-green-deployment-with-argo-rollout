@@ -20,7 +20,6 @@ spec:
         image: argoproj/rollouts-demo:blue
         #image: argoproj/rollouts-demo:green
         #image: argoproj/rollouts-demo:yellow
-        
         imagePullPolicy: Always
         resources:
           requests:
